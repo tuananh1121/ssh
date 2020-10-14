@@ -46,6 +46,7 @@ Sau khi click vào `tools` ta chọn `MobaKeyGen`
 ![](/image/key5.png)
 
 * Chọn đường dẫn đến file copy key từ server đã lưu ở phần trên. Sau đó sẽ có 1 của sổ hiện ra như bên dưới, nhập vào mật khẩu Passphrase sau đó chọn Ok để tiếp tục.
+
 ![](/image/key6.png)
 
 * Như vậy ta đã load xong. Tiếp tục chọn `Save private key` để lưu lại `private key`, sau này dùng cho việc ssh.
