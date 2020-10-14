@@ -1,7 +1,6 @@
 ﻿# Ghi chép về SSH
 1. [Tìm hiểu về ssh](./docs/01_tim-hieu-ve-ssh.md)
 
-https://github.com/tuananh1121/ssh/blob/main/docs/01_tim-hieu-ve-ssh.md
 
 2. lab ssh keypair
 
