@@ -11,6 +11,12 @@
 
 [Tìm hiểu về DHCP](./master/09_DHCP.md)
 
+[Cấu hình DHCP](./master/10_cau-hinh-dhcp.md)
+
+[Phân tích gói tin DHCP](./master/11_phan-tich-goi-tin-dhcp.md)
+
+[Hướng dẫn cài đặt Wordpress](./master/17_huong-dan-cai-dat-Wordpress.md)
+
 
 
 
