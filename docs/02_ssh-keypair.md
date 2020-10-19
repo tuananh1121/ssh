@@ -23,6 +23,8 @@ Vị trí 2: Nhập lại mật khẩu vừa nhập ở trên.
 
 * Sau khi tạo xong ta sẽ có 2 key. 1 là private key `id_rsa` . 2 là public key `id_rsa.pub`
 
+![](/image/key26.png)
+
 * Cấu hình file `etc/ssh/sshd_config` để khai báo thư mục đặt key cũng như cho phép `root` login
 
 ![](/image/key18.png)
