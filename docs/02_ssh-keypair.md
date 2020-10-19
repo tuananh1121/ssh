@@ -1,7 +1,7 @@
 ﻿# SSH Keypair
 ## Mô hình thực hành
 
-![](/image/key17.png)
+![](/image/key24.png)
 
 ## Tạo khóa trên server
 ### Thực hiện cấu hình trên server
