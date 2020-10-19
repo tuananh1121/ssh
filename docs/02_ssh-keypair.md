@@ -1,4 +1,8 @@
 ﻿# SSH Keypair
+## Mô hình thực hành
+
+![](/image/key17.png)
+
 ## Tạo khóa trên server
 ### Thực hiện cấu hình trên server
 Tạo 1 cặp ssh key bằng câu lệnh sau:
