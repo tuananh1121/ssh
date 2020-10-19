@@ -21,9 +21,13 @@ Vị trí 2: Nhập lại mật khẩu vừa nhập ở trên.
 
 ![](/image/key3.png)
 
-Key sau khi đã tạo xong
+* Sau khi tạo xong ta sẽ có 2 key. 1 là private key `id_rsa` . 2 là public key `id_rsa.pub`
 
-* Phân quyền cho cặp key
+* Cấu hình file `etc/ssh/sshd_config` để khai báo thư mục đặt key cũng như cho phép `root` login
+
+![](/image/key18.png)
+
+* Phân quyền cho cặp key cũng như đổi tên puclic key về đường dẫn mặc định `.ssh/authorized_keys` trong file `/etc/ssh/sshd_config`
 ```
 mv /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
 
@@ -32,7 +36,8 @@ chmod 600 /root/.ssh/authorized_keys
 chmod 700 .ssh
 ```
 
-Khởi động lại dịch vụ ssh
+
+* Sau khi chỉnh sửa xong Khởi động lại dịch vụ ssh
 ```
 # systemctl restart sshd
 ```
@@ -44,9 +49,9 @@ Trên MobaXterm, click vào tab `Tools`
 
 ![](/image/key4.png)
 
-Sau khi click vào `tools` ta chọn `MobaKeyGen`
+click vào `tools` ta chọn `MobaKeyGen`
 
-* Chọn file private key
+* sau khi copy file private key `id_rsa` từ server xuống ta bấm vào load để chọn file
 ![](/image/key5.png)
 
 * Chọn đường dẫn đến file copy key từ server đã lưu ở phần trên. Sau đó sẽ có 1 của sổ hiện ra như bên dưới, nhập vào mật khẩu Passphrase sau đó chọn Ok để tiếp tục.
@@ -59,7 +64,7 @@ Sau khi click vào `tools` ta chọn `MobaKeyGen`
 
 * Để kiểm tra, ta cần sử dụng key và ssh vào server
 
-Ta sẽ ssh vào bằng user thuctap, sau khi nhập vào user ta sẽ không xác thực bằng mật khẩu của user đó mà sẽ sử dụng mật khẩu của Passphrase key.
+Ta sẽ ssh vào bằng user `root`, sau khi nhập vào user ta sẽ không xác thực bằng mật khẩu của user đó mà sẽ sử dụng mật khẩu của Passphrase key.
 
 ![](/image/key9.png)
 
