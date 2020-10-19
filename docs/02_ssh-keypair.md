@@ -57,9 +57,7 @@ Sau khi click vào `tools` ta chọn `MobaKeyGen`
 
 ![](/image/key7.png)
 
-* Để kiểm tra, ta cần sử dụng key và ssh vào server. Hãy làm theo các bước sau :
-
-![](/image/key8.png)
+* Để kiểm tra, ta cần sử dụng key và ssh vào server
 
 Ta sẽ ssh vào bằng user thuctap, sau khi nhập vào user ta sẽ không xác thực bằng mật khẩu của user đó mà sẽ sử dụng mật khẩu của Passphrase key.
 
