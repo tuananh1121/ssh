@@ -74,6 +74,10 @@ Sau khi nhập mật khẩu, ta sẽ login được vào bằng user và thao t�
 
 ![](/image/key21.png)
 
+#### Để an toàn ta nên tắt đăng nhập bằng mật khẩu trong file `/etc/ssh/sshd_config`
+
+![](/image/key23.png)
+
 ## Tạo khóa trên Client Window
 ### 1.Window
 Đầu tiên ta vào MobaXterm Chọn `tools` và click vào `MobaKeyGen`
