@@ -60,7 +60,7 @@ click vào `tools` ta chọn `MobaKeyGen`
 
 * Như vậy ta đã load xong. Tiếp tục chọn `Save private key` để lưu lại `private key`, sau này dùng cho việc ssh.
 
-![](/image/key7.png)
+![](/image/key25.png)
 
 * Để kiểm tra, ta cần sử dụng key và ssh vào server
 
