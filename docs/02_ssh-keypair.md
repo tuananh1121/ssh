@@ -56,7 +56,7 @@ click vào `tools` ta chọn `MobaKeyGen`
 
 * Chọn đường dẫn đến file copy key từ server đã lưu ở phần trên. Sau đó sẽ có 1 của sổ hiện ra như bên dưới, nhập vào mật khẩu Passphrase sau đó chọn Ok để tiếp tục.
 
-![](/image/key6.png)
+![](/image/key19.png)
 
 * Như vậy ta đã load xong. Tiếp tục chọn `Save private key` để lưu lại `private key`, sau này dùng cho việc ssh.
 
@@ -64,13 +64,15 @@ click vào `tools` ta chọn `MobaKeyGen`
 
 * Để kiểm tra, ta cần sử dụng key và ssh vào server
 
+![](/image/key22.png)
+
 Ta sẽ ssh vào bằng user `root`, sau khi nhập vào user ta sẽ không xác thực bằng mật khẩu của user đó mà sẽ sử dụng mật khẩu của Passphrase key.
 
-![](/image/key9.png)
+![](/image/key20.png)
 
 Sau khi nhập mật khẩu, ta sẽ login được vào bằng user và thao tác như bình thường.
 
-![](/image/key10.png)
+![](/image/key21.png)
 
 ## Tạo khóa trên Client Window
 ### 1.Window
