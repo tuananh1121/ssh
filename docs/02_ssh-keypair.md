@@ -144,7 +144,7 @@ Tiếp theo ta tiến hành việc tạo key
 
 * Tiếp theo ta đăng nhập và tạo một phiên ssh mới 
 
-![](/image/key15.png)
+![](/image/key28.png)
 
 ### 2. Trên Ubuntu 
 
